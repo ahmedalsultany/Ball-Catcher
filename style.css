@@ -1,0 +1,37 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score{
+  margin: 0px;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  left: 90%;
+  transform: translateX(-50%);
+  color:white;
+}
+.time{
+  margin: 0px;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  left: 10%;
+  transform: translateX(-50%);
+  color:white;
+}
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% + 50px);
+  left: 50%;
+  transform: translateX(-50%);
+  transition: top 0.5s ease, left 0.5s ease;
+  
+
+}
